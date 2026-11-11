@@ -1,0 +1,13 @@
+{
+  "name": "mvp-observability-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/observability_service.ts",
+    "test": "node --experimental-strip-types --test src/observability_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

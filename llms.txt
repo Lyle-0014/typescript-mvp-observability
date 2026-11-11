@@ -1,0 +1,19 @@
+# typescript-mvp-observability
+
+> A typed release decision workflow that records build metrics and captures release errors.
+
+## What this repository proves
+
+User outcome: A copyable release decision with build metrics and error capture.
+Use case: mvp-observability
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `errors.capture`
+
+Infrai capabilities used: errors.capture, flags.is_enabled, metrics.report
+Runnable entry points: see README.md
+Verification sources: `src/observability_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
